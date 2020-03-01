@@ -1,0 +1,41 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+    <STYLE>
+div.scroll_academias {
+  background-color: lightblue;
+  width: 110px;
+  height: 110px;
+  overflow: scroll;
+}
+    </STYLE>
+</HEAD>
+
+<BODY class="academia-background">
+    <a id="nav-toggle" href="#">&#9776;</a>
+
+    <h1>Data do treino</h1>
+    <form action="/action_page.php">
+      <label for="appt">Selecione um horário:</label>
+      <input type="time" id="appt" name="appt">
+      <input type="submit">
+    </form>
+
+    <h2>Academias Próximas</h2>
+    <div class="scroll_academias">Smartfit SBC Plaza,Smartfit Metropole, Smartfit Extra Anchieta, Smartfit Rudge Ramos.</div>
+
+    <div id="lista_pessoas" class="lista_pessoas"></div>
+    <h1>Lista de Pessoas que já Agendaram Horário</h1>
+    <form action="/action_page.php">
+      <input type="checkbox" id="pessoa1" name="pessoa1" value="solicitar_treino">
+      <label for="pessoa1"> Rodrigo</label><br>
+      <input type="checkbox" id="pessoa2" name="pessoa2" value="solicitar_treino">
+      <label for="pessoa2"> Jonathan</label><br>
+      <input type="checkbox" id="pessoa3" name="pessoa3" value="solicitar_treino">
+      <label for="pessoa3"> Adriano</label><br><br>
+      <input type="submit" value="Submit">
+    </form>
+</BODY>
+
